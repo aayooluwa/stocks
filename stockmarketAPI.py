@@ -4,29 +4,6 @@ Created on Tue Jan 19 20:28:52 2021
 
 @author: AyoOluwa
 """
-""""
-import requests
-
-import alpha_vantage
-
-API_URL = "https://www.alphavantage.co/query?"
-
-data = {
-        "function": "TIME_SERIES_DAILY",
-        "symbol": "IBM",
-        "apikey": "DVLY3M2ZT3ABQ3RQ",
-       
-    }
-
-response = requests.get(API_URL , data)
-
-print(response.json())
-
-r=requests.get('https://finance.yahoo.com/quote/FB?p=fb')
-
-
-https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=9OU8XsAF0u1ivshctE4DU5ULoxvz6iDC
-"""
 
 import bs4
 import requests
